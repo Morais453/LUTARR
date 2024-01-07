@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D8D8D8;
+    height: 100vh;
+    margin: auto;
+    margin-top: -20px;
+    overflow-x: hidden;
+}
+
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*cabeçalho*/
+header#cabecalho {
+    border-bottom: 5px #606060 solid;
+    height: 200px;
+    background-color: #316BBD;
+}
+
+header#cabecalho img#icone {
+    left: 10px;
+    top: 50px;
+}
+
+header#cabecalho h1 {
+    position: relative;
+    left: 220px;
+    top: 50px;
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: #fff;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    position: relative;
+    left: 223px;
+    top: 55px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #fff;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/*Menu*/
+nav#menu {
+    display: block;
+}
+
+nav#Menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 850px;
+}
+
+nav#Menu li {
+    display: inline-table;
+    background-color: #0F4098;
+    padding: 10px;
+    transition: background-color 1s;
+}
+
+nav#Menu li:hover {
+    background-color: #2F6ABC;
+}
+
+nav#Menu h1 {
+    display: none;
+}
+
+nav#Menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+/*Corpo noticia*/
+section#corpo {
+    display: block;
+    margin-left: 30px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+section#corpo article#descricao h1{
+    font-size: 15pt;
+}section#corpo article#descricao p {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-indent: 0;
+    text-align: left;
+}section#corpo article#descricao span{
+    font-weight: normal;
+}
+
+section#corpo article#principal h1{
+    font-size: 20pt;
+    font-family: Arial;
+}section#corpo article#principal p#list{
+    text-indent: 0pt;
+}
+
+/*tabela*/
+aside#lateral {
+    display: relative;
+    width: 550px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -850px;
+}aside#lateral table#participantes caption{
+    font-size: 20pt;
+    font-weight: bold;
+}
+aside#lateral table#participantes thead#Sup{
+    background-color: #0F4098;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+aside#lateral table#participantes {
+    border: 2px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}aside#lateral table#participantes tbody tr td{
+    border: .5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Rodape*/
+footer{
+    border-top: 5px #606060 solid ;
+}
+footer p{
+    text-align: center;
+}
