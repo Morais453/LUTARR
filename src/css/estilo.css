@@ -4,7 +4,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #D8D8D8;
+    background-color: #180000;
+    color: #EEE6E6;
     height: 100vh;
     margin: auto;
     margin-top: -20px;
@@ -18,7 +19,6 @@ p {
 }
 
 a {
-    color: #fff;
     text-decoration: none;
 }
 
@@ -28,14 +28,8 @@ a:hover {
 
 /*cabeçalho*/
 header#cabecalho {
-    border-bottom: 5px #606060 solid;
     height: 200px;
-    background-color: #316BBD;
-}
-
-header#cabecalho img#icone {
-    left: 10px;
-    top: 50px;
+    background-color: #000000;
 }
 
 header#cabecalho h1 {
@@ -44,7 +38,6 @@ header#cabecalho h1 {
     top: 50px;
     font-family: sans-serif;
     font-size: 20pt;
-    color: #fff;
     padding: 0px;
     margin-bottom: 0px;
 }
@@ -55,7 +48,6 @@ header#cabecalho h2 {
     top: 55px;
     font-family: Arial, sans-serif;
     font-size: 10pt;
-    color: #fff;
     padding: 0px;
     margin-top: 0px;
 }
@@ -68,19 +60,20 @@ nav#menu {
 nav#Menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: relative;
+    position: fixed;
     left: 850px;
+    top: 150px;
 }
 
 nav#Menu li {
     display: inline-table;
-    background-color: #0F4098;
+    background-color: #180000;
     padding: 10px;
     transition: background-color 1s;
 }
 
 nav#Menu li:hover {
-    background-color: #2F6ABC;
+    background-color: #600000;
 }
 
 nav#Menu h1 {
@@ -88,7 +81,6 @@ nav#Menu h1 {
 }
 
 nav#Menu a {
-    color: white;
     text-decoration: none;
     transition: color 1s;
 }
@@ -148,7 +140,7 @@ aside#lateral table#participantes {
 
 /*Rodape*/
 footer{
-    border-top: 5px #606060 solid ;
+    background-color: #000000;
 }
 footer p{
     text-align: center;
