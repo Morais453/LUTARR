@@ -60,7 +60,7 @@ nav#menu {
 nav#Menu ul {
     list-style: none;
     text-transform: uppercase;
-    position: fixed;
+    position: absolute;
     left: 850px;
     top: 150px;
 }
