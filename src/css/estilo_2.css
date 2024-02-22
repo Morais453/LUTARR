@@ -92,10 +92,9 @@ nav#Menu a {
 /*Corpo noticia*/
 section#corpo {
     display: block;
-        margin-left: 30px;
-        width: auto;
-        padding-right: 30px;
-        margin-bottom: 50px;
+    margin-left: 30px;
+    width: auto;
+    padding-right: 30px;
 }
 
 section#corpo article#descricao h1 {
@@ -124,10 +123,8 @@ section#corpo article#principal p#list {
 
 /*tabela*/
 aside#lateral {
-    display: inline-block;
     width: auto;
-    margin-left: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
 }
 
@@ -163,16 +160,4 @@ footer {
 
 footer p {
     text-align: center;
-}
-
-
-@media screen and (max-width: 1228px) {
-    aside#lateral {
-        float: none;
-        display: inline-block;
-        width: auto;
-        margin-left: 30px;
-        margin-bottom: 50px;
-    }
-
 }
